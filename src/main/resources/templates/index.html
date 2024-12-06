@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Esra</title>
+        <link rel="stylesheet" type="text/css" href="/css/basics.css">
+    </head>
+    <body>
+        <h1>Esra war hier</h1>
+        <p>Here you can choose what you want to do next:</p>
+        <ul>
+            <li><a href="/list">List all users</a></li>
+            <li><a href="/find?id=1">Find user by id</a></li>
+            <li><a href="/add?firstName=Celine&lastName=Clever&email=celine.clever%40example.com&password=123456">Add new user</a></li>
+            <li><a href="/update">Update an existing user using form sending POST method</a></li>
+            <li><a href="/updated?id=2&firstName=Alice&lastName=Abraham&email=alice%40example.com&password=123A456">Update an existing user using GET method</a></li>
+            <li><a href="/delete/3">Delete an existing user by id</a></li>
+        </ul>
+        <div class="container">   
+                <img src="Simba.gif" alt="Simba" class="image" style="width: 200px; height: 200px;">
+            </div>
+    
+        </div>
+        <footer>
+            <small id="today"></small>
+        </footer>
+        <script src="/js/date.js"></script>
+    </body>
+</html>
